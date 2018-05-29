@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="昨天完成的工作:- 完成了号码dna的脚本编写。 问题点:- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。 - 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。 - 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。 - 但是业务逻辑是如果没有就插入，">
+<meta name="description" content="今天完成的工作:完成了七牛图片的处理(最大尺寸和瘦身) 完成了image新增一个字段，以及发布一张图片的时候，存储当前图片的size. 问题点:图片处理的时候，没有根据当前的业务去思考，一味的根据之前的代码去做 在已有图片的时候去修改最大尺寸和瘦身，获取key的时候忽略了http和https,导致切出来的key错误。 dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一些异常。 需要反思的地方">
 <meta name="keywords" content="python, 日记，反思，linux, vim">
 <meta property="og:type" content="article">
-<meta property="og:title" content="昨日反思">
-<meta property="og:url" content="http://yoursite.com/2018/05/29/xx/index.html">
+<meta property="og:title" content="今日反思">
+<meta property="og:url" content="http://yoursite.com/2018/05/29/2018-05-29/index.html">
 <meta property="og:site_name" content="幽默的荆轲君">
-<meta property="og:description" content="昨天完成的工作:- 完成了号码dna的脚本编写。 问题点:- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。 - 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。 - 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。 - 但是业务逻辑是如果没有就插入，">
+<meta property="og:description" content="今天完成的工作:完成了七牛图片的处理(最大尺寸和瘦身) 完成了image新增一个字段，以及发布一张图片的时候，存储当前图片的size. 问题点:图片处理的时候，没有根据当前的业务去思考，一味的根据之前的代码去做 在已有图片的时候去修改最大尺寸和瘦身，获取key的时候忽略了http和https,导致切出来的key错误。 dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一些异常。 需要反思的地方">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2018-05-29T01:10:28.537Z">
+<meta property="og:updated_time" content="2018-05-29T12:43:29.453Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="昨日反思">
-<meta name="twitter:description" content="昨天完成的工作:- 完成了号码dna的脚本编写。 问题点:- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。 - 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。 - 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。 - 但是业务逻辑是如果没有就插入，">
+<meta name="twitter:title" content="今日反思">
+<meta name="twitter:description" content="今天完成的工作:完成了七牛图片的处理(最大尺寸和瘦身) 完成了image新增一个字段，以及发布一张图片的时候，存储当前图片的size. 问题点:图片处理的时候，没有根据当前的业务去思考，一味的根据之前的代码去做 在已有图片的时候去修改最大尺寸和瘦身，获取key的时候忽略了http和https,导致切出来的key错误。 dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一些异常。 需要反思的地方">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/05/29/xx/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/29/2018-05-29/"/>
 
 
 
 
 
-  <title>昨日反思 | 幽默的荆轲君</title>
+  <title>今日反思 | 幽默的荆轲君</title>
   
 
 
@@ -233,7 +233,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/29/xx/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/29/2018-05-29/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="guowenjia">
@@ -250,7 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">昨日反思</h1>
+          <h1 class="post-title" itemprop="name headline">今日反思</h1>
         
 
         <div class="post-meta">
@@ -262,7 +262,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-29T09:00:00+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-29T20:43:00+08:00">
                 2018-05-29
               </time>
             
@@ -300,14 +300,15 @@
       
 
       
-        <h2 id="昨天完成的工作"><a href="#昨天完成的工作" class="headerlink" title="昨天完成的工作:"></a>昨天完成的工作:</h2><pre><code>- 完成了号码dna的脚本编写。
-</code></pre><h2 id="问题点"><a href="#问题点" class="headerlink" title="问题点:"></a>问题点:</h2><pre><code>- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。
-- 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。
-- 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。
-- 但是业务逻辑是如果没有就插入，有就删除。
-</code></pre><h2 id="需要反思的地方"><a href="#需要反思的地方" class="headerlink" title="需要反思的地方:"></a>需要反思的地方:</h2><pre><code>- 我过多的关注了返给客户端的数据，没有理清楚它们之间的关系其实是可以分开的。
-- 代码逻辑还是没有弄的足够的清楚，代码看的不够细致。
-</code></pre><p>昨天尝试使用hexo和github来搭建自己的博客，感觉这个确实很赞，作为记录自己日常生活的个人天地，确实很不错。以后会尽量的把文章发在这个上面，同时弄清楚更多hexo的使用技巧。</p>
+        <h2 id="今天完成的工作"><a href="#今天完成的工作" class="headerlink" title="今天完成的工作:"></a>今天完成的工作:</h2><pre><code>完成了七牛图片的处理(最大尺寸和瘦身)
+完成了image新增一个字段，以及发布一张图片的时候，存储当前图片的size.
+</code></pre><h2 id="问题点"><a href="#问题点" class="headerlink" title="问题点:"></a>问题点:</h2><pre><code>图片处理的时候，没有根据当前的业务去思考，一味的根据之前的代码去做
+在已有图片的时候去修改最大尺寸和瘦身，获取key的时候忽略了http和https,导致切出来的key错误。
+dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一些异常。
+</code></pre><h2 id="需要反思的地方"><a href="#需要反思的地方" class="headerlink" title="需要反思的地方:"></a>需要反思的地方:</h2><pre><code>调试的时候，真的看不出来问题的时候，就一行一行的打印日志，查看每一步的结果。
+如果有业务逻辑没有看懂，就要抓紧时间问，避免重复返工。
+</code></pre><p>今天下午的bug卡了很长时间，今天弄好了博客的评论功能。用了一下还不错。grep 很久不用现在都生疏了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">grep &quot;xxxx&quot; file                                # 这个直接查找文本里面的xxxx</span><br><span class="line">grep &quot;xxxx&quot; file | grep &quot;yyyy&quot;                  # 这个是多条件查找，同时匹配</span><br><span class="line">grep -E &quot;word1|word2|word3&quot;   file.txt          # 这个只需要满足一个就可以了。</span><br></pre></td></tr></table></figure></p>
+<p>接下来要抽空多看英语，英语忘完了感觉。。。git软件开发实战今天都没空看。 时间没有规划好。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard  # 如果git pull 的时候报错，或者本地编辑了，已经commit了，还没有提交远端分支，就用这个。</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -332,8 +333,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/05/28/fluently_python读书笔记/" rel="next" title="fluently_python读书笔记">
-                <i class="fa fa-chevron-left"></i> fluently_python读书笔记
+              <a href="/2018/05/29/2018-05-28/" rel="next" title="昨日反思">
+                <i class="fa fa-chevron-left"></i> 昨日反思
               </a>
             
           </div>
@@ -422,7 +423,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -459,7 +460,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#昨天完成的工作"><span class="nav-number">1.</span> <span class="nav-text">昨天完成的工作:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#问题点"><span class="nav-number">2.</span> <span class="nav-text">问题点:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需要反思的地方"><span class="nav-number">3.</span> <span class="nav-text">需要反思的地方:</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#今天完成的工作"><span class="nav-number">1.</span> <span class="nav-text">今天完成的工作:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#问题点"><span class="nav-number">2.</span> <span class="nav-text">问题点:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需要反思的地方"><span class="nav-number">3.</span> <span class="nav-text">需要反思的地方:</span></a></li></ol></div>
             
 
           </div>

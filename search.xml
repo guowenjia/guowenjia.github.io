@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>今日反思</title>
+      <link href="/2018/05/29/2018-05-29/"/>
+      <url>/2018/05/29/2018-05-29/</url>
+      <content type="html"><![CDATA[<h2 id="今天完成的工作"><a href="#今天完成的工作" class="headerlink" title="今天完成的工作:"></a>今天完成的工作:</h2><pre><code>完成了七牛图片的处理(最大尺寸和瘦身)完成了image新增一个字段，以及发布一张图片的时候，存储当前图片的size.</code></pre><h2 id="问题点"><a href="#问题点" class="headerlink" title="问题点:"></a>问题点:</h2><pre><code>图片处理的时候，没有根据当前的业务去思考，一味的根据之前的代码去做在已有图片的时候去修改最大尺寸和瘦身，获取key的时候忽略了http和https,导致切出来的key错误。dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一些异常。</code></pre><a id="more"></a><h2 id="需要反思的地方"><a href="#需要反思的地方" class="headerlink" title="需要反思的地方:"></a>需要反思的地方:</h2><pre><code>调试的时候，真的看不出来问题的时候，就一行一行的打印日志，查看每一步的结果。如果有业务逻辑没有看懂，就要抓紧时间问，避免重复返工。</code></pre><p>今天下午的bug卡了很长时间，今天弄好了博客的评论功能。用了一下还不错。grep 很久不用现在都生疏了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">grep &quot;xxxx&quot; file                                # 这个直接查找文本里面的xxxx</span><br><span class="line">grep &quot;xxxx&quot; file | grep &quot;yyyy&quot;                  # 这个是多条件查找，同时匹配</span><br><span class="line">grep -E &quot;word1|word2|word3&quot;   file.txt          # 这个只需要满足一个就可以了。</span><br></pre></td></tr></table></figure></p><p>接下来要抽空多看英语，英语忘完了感觉。。。git软件开发实战今天都没空看。 时间没有规划好。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard  # 如果git pull 的时候报错，或者本地编辑了，已经commit了，还没有提交远端分支，就用这个。</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 反思 </tag>
+            
+            <tag> git </tag>
+            
+            <tag> grep </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>昨日反思</title>
+      <link href="/2018/05/29/2018-05-28/"/>
+      <url>/2018/05/29/2018-05-28/</url>
+      <content type="html"><![CDATA[<h2 id="昨天完成的工作"><a href="#昨天完成的工作" class="headerlink" title="昨天完成的工作:"></a>昨天完成的工作:</h2><pre><code>- 完成了号码dna的脚本编写。</code></pre><h2 id="问题点"><a href="#问题点" class="headerlink" title="问题点:"></a>问题点:</h2><pre><code>- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。- 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。- 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。- 但是业务逻辑是如果没有就插入，有就删除。</code></pre><a id="more"></a><h2 id="需要反思的地方"><a href="#需要反思的地方" class="headerlink" title="需要反思的地方:"></a>需要反思的地方:</h2><pre><code>- 我过多的关注了返给客户端的数据，没有理清楚它们之间的关系其实是可以分开的。- 代码逻辑还是没有弄的足够的清楚，代码看的不够细致。</code></pre><p>昨天尝试使用hexo和github来搭建自己的博客，感觉这个确实很赞，作为记录自己日常生活的个人天地，确实很不错。以后会尽量的把文章发在这个上面，同时弄清楚更多hexo的使用技巧。</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 反思 </tag>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>fluently_python读书笔记</title>
+      <link href="/2018/05/28/fluently_python%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <url>/2018/05/28/fluently_python%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<h2 id="1-第一个python问题"><a href="#1-第一个python问题" class="headerlink" title="1.第一个python问题"></a>1.第一个python问题</h2><p>流畅的python里面14章  可迭代的对象，迭代器，生成器里面，最后一个延伸阅读，里面列举了这样一个例子。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">def f(): x=0</span><br><span class="line">    while True:</span><br><span class="line">        x += 1</span><br><span class="line">        yield x</span><br></pre></td></tr></table></figure><p>论文的作者指出，我们无法通过函数调用抽象产出这个过程。<br>然后论文的作者做了一个变化，变成下面的例子来简单地抽象产出这个过程。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">def f():</span><br><span class="line">    def do_yield(n):</span><br><span class="line">        yield n</span><br><span class="line">    x = 0</span><br><span class="line">    while True:</span><br><span class="line">        x += 1</span><br><span class="line">        do_yield(x)</span><br></pre></td></tr></table></figure><p>这样会得到一个无限的循环，而不是生成器。</p><p>如果调用示例 14-24 中的 f(),会得到一个无限循环,而不是生成<br>器,因为 yield 关键字只能把最近的外层函数变成生成器函数。<br>虽然生成器函数看起来像函数,可是我们不能通过简单的函数调用<br>把职责委托给另一个生成器函数。<br><a id="more"></a><br>而必须使用yield from 才能解决这个问题。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">def f():</span><br><span class="line">    def do_yield(n):</span><br><span class="line">        yield n</span><br><span class="line">    x = 0</span><br><span class="line">    while True:</span><br><span class="line">        x += 1</span><br><span class="line">        yield from do_yield(x)</span><br></pre></td></tr></table></figure><p>然后作者后面列举了一个斐波那契数列，实现如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def fibonacci():</span><br><span class="line">    a, b = 0, 1</span><br><span class="line">    while True:</span><br><span class="line">        yield a</span><br><span class="line">        a, b = b, a + b</span><br></pre></td></tr></table></figure><p>这个和上面第一个列举的例子有什么区别？<br>而且yield from 和 yield 在这个里面的区别在哪？</p><h2 id="第二个问题："><a href="#第二个问题：" class="headerlink" title="第二个问题："></a>第二个问题：</h2><p>猴子补丁问题。（第15章，上下文管理器和else块）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">class LookingGlass:</span><br><span class="line">    def __enter__(self): ➊</span><br><span class="line">        import sys</span><br><span class="line">        self.original_write = sys.stdout.write ➋</span><br><span class="line">        sys.stdout.write = self.reverse_write ➌ # 在这个地方使用猴子补丁，替换成自己编写的方法。</span><br><span class="line">        return &apos;JABBERWOCKY&apos; ➍</span><br><span class="line">        </span><br><span class="line">    def reverse_write(self, text): ➎</span><br><span class="line">        self.original_write(text[::-1])</span><br><span class="line">        </span><br><span class="line">    def __exit__(self, exc_type, exc_value, traceback):</span><br><span class="line">        import sys ➐</span><br><span class="line">        sys.stdout.write = self.original_write ➑</span><br><span class="line">        if exc_type is ZeroDivisionError: ➒</span><br><span class="line">            print(&apos;error&apos;)</span><br></pre></td></tr></table></figure><p>在➌处使用了猴子补丁，在python3里面运行没有问题，但是放到python2里面，会报write方法是只读的？ 原因是因为python2和python3,write方法不一样？还是python2不支持猴子补丁？</p><p>python2会报如下错误:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AttributeError: &apos;file&apos; object attribute &apos;write&apos; is read-only</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 流畅的python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+</search>

@@ -1,0 +1,24 @@
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-05-30T05:47:19.360Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Working directory: \u001b[35m~/limedroid.github.io/\u001b[39m","time":"2018-05-30T05:47:19.371Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Config loaded: \u001b[35m~/limedroid.github.io/_config.yml\u001b[39m","time":"2018-05-30T05:47:19.620Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-05-30T05:47:19.658Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-05-30T05:47:19.689Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-05-30T05:47:19.692Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-05-30T05:47:19.698Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-05-30T05:47:19.700Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-05-30T05:47:19.709Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-05-30T05:47:19.717Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-05-30T05:47:19.720Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-05-30T05:47:19.854Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/merge-configs.js\u001b[39m","time":"2018-05-30T05:47:19.890Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/button.js\u001b[39m","time":"2018-05-30T05:47:19.891Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/merge.js\u001b[39m","time":"2018-05-30T05:47:19.894Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/center-quote.js\u001b[39m","time":"2018-05-30T05:47:19.895Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/full-image.js\u001b[39m","time":"2018-05-30T05:47:19.896Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/exturl.js\u001b[39m","time":"2018-05-30T05:47:19.897Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/label.js\u001b[39m","time":"2018-05-30T05:47:19.898Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/lazy-image.js\u001b[39m","time":"2018-05-30T05:47:19.898Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/group-pictures.js\u001b[39m","time":"2018-05-30T05:47:19.899Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/note.js\u001b[39m","time":"2018-05-30T05:47:19.899Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/tabs.js\u001b[39m","time":"2018-05-30T05:47:19.900Z","v":0}
+{"name":"hexo","hostname":"guo","pid":5796,"level":20,"msg":"Database saved","time":"2018-05-30T05:47:19.907Z","v":0}

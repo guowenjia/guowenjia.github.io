@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="反思,日常," />
 
 
 
@@ -80,14 +80,14 @@
 
 
 <meta name="description" content="昨天完成的工作:- 完成了号码dna的脚本编写。 问题点:- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。 - 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。 - 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。 - 但是业务逻辑是如果没有就插入，">
-<meta name="keywords" content="python, 日记，反思，linux, vim">
+<meta name="keywords" content="反思,日常">
 <meta property="og:type" content="article">
 <meta property="og:title" content="昨日反思">
 <meta property="og:url" content="http://yoursite.com/2018/05/29/2018-05-28/index.html">
 <meta property="og:site_name" content="幽默的荆轲君">
 <meta property="og:description" content="昨天完成的工作:- 完成了号码dna的脚本编写。 问题点:- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。 - 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。 - 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。 - 但是业务逻辑是如果没有就插入，">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2018-05-30T01:59:49.772Z">
+<meta property="og:updated_time" content="2018-05-30T05:38:36.689Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="昨日反思">
 <meta name="twitter:description" content="昨天完成的工作:- 完成了号码dna的脚本编写。 问题点:- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。 - 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。 - 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。 - 但是业务逻辑是如果没有就插入，">
@@ -365,6 +365,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/反思/" rel="tag"># 反思</a>
+          
+            <a href="/tags/日常/" rel="tag"># 日常</a>
+          
+        </div>
+      
 
       
       
@@ -480,6 +488,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -610,6 +627,8 @@
   
 
 
+  
+
 
 
 
@@ -648,6 +667,11 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 

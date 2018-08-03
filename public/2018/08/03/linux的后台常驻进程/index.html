@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="反思,linux," />
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="记录技术、生活中的点点滴滴">
-<meta name="keywords" content="python, 日记，反思，linux, vim">
-<meta property="og:type" content="website">
-<meta property="og:title" content="幽默的荆轲君">
-<meta property="og:url" content="http://yoursite.com/tags/思考/index.html">
+<meta name="description" content="nohup 和 &amp;amp;nohup 解决了shell关闭，却没有解决ctrl+c&amp;amp;解决了ctrl，却没有解决shell关闭。两者结合，最好 还需要说明的一点是 &amp;amp; 和 bg 是等价的。这里要注意下。 还有一些反思的东西: 1. 硬着头皮，收货一定不会小。昨天两个前端的页面基本上交差，我对react也有了更深层次的认识。ant-design-pro这个框架也很棒，css也不用怎么写">
+<meta name="keywords" content="反思,linux">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux的后台常驻进程">
+<meta property="og:url" content="http://yoursite.com/2018/08/03/linux的后台常驻进程/index.html">
 <meta property="og:site_name" content="幽默的荆轲君">
-<meta property="og:description" content="记录技术、生活中的点点滴滴">
+<meta property="og:description" content="nohup 和 &amp;amp;nohup 解决了shell关闭，却没有解决ctrl+c&amp;amp;解决了ctrl，却没有解决shell关闭。两者结合，最好 还需要说明的一点是 &amp;amp; 和 bg 是等价的。这里要注意下。 还有一些反思的东西: 1. 硬着头皮，收货一定不会小。昨天两个前端的页面基本上交差，我对react也有了更深层次的认识。ant-design-pro这个框架也很棒，css也不用怎么写">
 <meta property="og:locale" content="zh-cn">
+<meta property="og:updated_time" content="2018-08-03T06:08:01.545Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="幽默的荆轲君">
-<meta name="twitter:description" content="记录技术、生活中的点点滴滴">
+<meta name="twitter:title" content="linux的后台常驻进程">
+<meta name="twitter:description" content="nohup 和 &amp;amp;nohup 解决了shell关闭，却没有解决ctrl+c&amp;amp;解决了ctrl，却没有解决shell关闭。两者结合，最好 还需要说明的一点是 &amp;amp; 和 bg 是等价的。这里要注意下。 还有一些反思的东西: 1. 硬着头皮，收货一定不会小。昨天两个前端的页面基本上交差，我对react也有了更深层次的认识。ant-design-pro这个框架也很棒，css也不用怎么写">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/思考/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/08/03/linux的后台常驻进程/"/>
 
 
 
 
 
-  <title>Tag: 思考 | 幽默的荆轲君</title>
+  <title>linux的后台常驻进程 | 幽默的荆轲君</title>
   
 
 
@@ -144,7 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -272,54 +273,212 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>思考<small>Tag</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/03/linux的后台常驻进程/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="guowenjia">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="幽默的荆轲君">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/06/04/2018-06-04周末整理/" itemprop="url">
-              
-                <span itemprop="name">2018-06-04周末整理</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">linux的后台常驻进程</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-06-04T09:35:25+08:00"
-              content="2018-06-04" >
-          06-04
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-03T09:26:50+08:00">
+                2018-08-03
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/03/linux的后台常驻进程/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/08/03/linux的后台常驻进程/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/08/03/linux的后台常驻进程/" class="leancloud_visitors" data-flag-title="linux的后台常驻进程">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  649 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  2 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="nohup-和-amp"><a href="#nohup-和-amp" class="headerlink" title="nohup 和 &amp;"></a>nohup 和 &amp;</h3><p>nohup 解决了shell关闭，却没有解决ctrl+c<br>&amp;解决了ctrl，却没有解决shell关闭。两者结合，最好</p>
+<p>还需要说明的一点是 &amp; 和 bg 是等价的。这里要注意下。</p>
+<p>还有一些反思的东西:</p>
+<h4 id="1-硬着头皮，收货一定不会小。"><a href="#1-硬着头皮，收货一定不会小。" class="headerlink" title="1. 硬着头皮，收货一定不会小。"></a>1. 硬着头皮，收货一定不会小。</h4><p>昨天两个前端的页面基本上交差，我对react也有了更深层次的认识。ant-design-pro这个框架也很棒，css也不用怎么写。<br>虽然开始的时候，阻力特别的大，但是起码没那么恐惧它了。这个小插曲，算是送给自己的生日礼物吧。</p>
+<h4 id="2-合理利用时间和坚持。"><a href="#2-合理利用时间和坚持。" class="headerlink" title="2. 合理利用时间和坚持。"></a>2. 合理利用时间和坚持。</h4><p>我要表达的，和我要写的，可能不太相关。这周算是对自己做了一个小的测试。我平时喜欢晚上下班的时候，去上地公园锻炼，<br>知道那里有一个公园，也是因为我在那附近等车。无意中发现的。公司每天在5:30到6:00的时候是吃饭的时间。我通常不在这个时间点吃饭。<br>但是从早上九点开始，除了吃饭上厕所，坐到下午5点半，本来就是很大的一种消耗。我往往那个时间段，会很累，或者说效率很低。这周的周一和周二，我选择了留在公司里面，<br>然后周一头疼，周二也效率很低。然后我周三的时候还是很抵触。因为外边很热，30多度。不过周三和周四，特别是周四时间很紧的时候，我还是硬着头皮去了。你觉得很重要的东西，<br>其实也可以说放下就放下的。”大不了加班嘛，我现在确实需要休息”。当时我就是这么想的，然后我就出发了，然后锻炼完回来了。就感觉充了电一样的感觉。回来后也没有用太多时间，就基本上完成了本周的任务。</p>
+<p>时间的合理利用真的很重要。 晚上10点睡觉和早上六点起床，凌晨1点睡觉和早上9点起床，相差的真的很多。第一种我会很精神。第二种情况，我会睡不醒一样。</p>
+<blockquote>
+<p>贵有恒何必三更眠五更起，最无益只怕一日曝十日寒。</p>
+</blockquote>
+<blockquote>
+<p>如果当前陷入死胡同了。你要相信，再重要的工作，都可以放下。遵从内心的选择，缕清思路，累了就休息。重整之后，再次出发。真的做到高效率，高产出。</p>
+</blockquote>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/反思/" rel="tag"># 反思</a>
+          
+            <a href="/tags/linux/" rel="tag"># linux</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/06/07/2018-06-07今日总结/" rel="next" title="2018-06-07今日总结">
+                <i class="fa fa-chevron-left"></i> 2018-06-07今日总结
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -327,6 +486,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNjkwOC8xMzQ0NA=="></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -347,8 +515,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -431,6 +608,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#nohup-和-amp"><span class="nav-number">1.</span> <span class="nav-text">nohup 和 &amp;</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-硬着头皮，收货一定不会小。"><span class="nav-number">1.1.</span> <span class="nav-text">1. 硬着头皮，收货一定不会小。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-合理利用时间和坚持。"><span class="nav-number">1.2.</span> <span class="nav-text">2. 合理利用时间和坚持。</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -578,6 +771,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -598,6 +795,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 

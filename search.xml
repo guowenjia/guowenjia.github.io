@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>2018/08/31本周整理</title>
+      <link href="/2018/08/31/2018-08-31%E6%9C%AC%E5%91%A8%E6%95%B4%E7%90%86/"/>
+      <url>/2018/08/31/2018-08-31%E6%9C%AC%E5%91%A8%E6%95%B4%E7%90%86/</url>
+      <content type="html"><![CDATA[<p>周五了，这周发生不少新闻，比如恶霸被反杀事件,比如个人税做了调整。这周工作做了文字识别，可以说效果很差，公司没有太多精力在标记图片上，训练效果不好。这周看了一本书，无人生还。特别棒的一本书。主要讲一个小岛上的无法破解的杀人事件。故事很短，但构思巧妙，读完畅快淋漓。这周听了活法，稻盛和夫的书，有一些感触。他的思想和前百度总裁陆奇做事的思路有些像。他们不是为公司打工，而是把自己当做一个经营者，老板的心态在做。而稻盛和夫已经不缺钱了，他现在考虑的是为他的国民做点东西。所有我也可以对马云的一些言论，有一些新的体会。<br>关于肖申克的救赎，这部高分神剧，也有了更深刻的认识。剧情好是一方面，而你的感触，你的生活经历，在看这部剧的时候也会有不同的理解以及感悟。这其实是一部写人生的剧，每个人都会从其中找到一些自己的影子。更重要的是里面对于压抑和释放都表现的特别好。因为主人公悲惨遭遇，生活中不顺心，压力大的人在看的时候，都会有自己的感想。更深刻的理解了，一千个读者就有一千个哈姆雷特。突然想起一个我之前比较傻的行为，别人戴眼镜的时候，我总想通过别人戴的眼镜看看别人看到的是什么样的。其实永远看不到，因为一些经历，一些磨难，没有花费时间，精力。你的认识可能就是盲人摸象，深耕多年的人就是庖丁解牛。看同样的东西，得到的也是不一样的。<br>这就是为什么懂了那么多道理，依然过不好这一生的原因。为什么查理芒格可以那么睿智。因为他能吸收别人的经验，避免自己重复犯错。他会找到失败的所有可能，一一避开。<br>这周三发烧了，干了一天活，效率不高。发烧别人也看不出来，我只是表现的有点累。晚上喝了药，周四退了烧，喉咙痛。今天稍微好点了。还是要适度锻炼，工作不能绷得太紧，劳逸结合。<br>昨天中午接到任务，计算统计识别后的匹配率。本来这个应该会多次匹配，耽误时间的一个活，昨天中午趴那休息的时候，想到先做一个基础数据集，然后预测的数据一一比对即可。脚本用了快两个小时，给的要求是30张图，我昨天测了40张。弄完基础数据集，基本上就不用管了。昨天晚上还偷了一会闲。做事情，一次用笨办法，下次就得想想有没有好办法，有的话，即使难，应该想想怎么去做。否则就只能这么笨下去了.<br>以后每周会定时记录一周的时间流水。然后挑选体会最深的更新公众号。</p><p>厚积薄发！</p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>linux的后台常驻进程</title>
+      <link href="/2018/08/03/linux%E7%9A%84%E5%90%8E%E5%8F%B0%E5%B8%B8%E9%A9%BB%E8%BF%9B%E7%A8%8B/"/>
+      <url>/2018/08/03/linux%E7%9A%84%E5%90%8E%E5%8F%B0%E5%B8%B8%E9%A9%BB%E8%BF%9B%E7%A8%8B/</url>
+      <content type="html"><![CDATA[<h3 id="nohup-和-amp"><a href="#nohup-和-amp" class="headerlink" title="nohup 和 &amp;"></a>nohup 和 &amp;</h3><p>nohup 解决了shell关闭，却没有解决ctrl+c<br>&amp;解决了ctrl，却没有解决shell关闭。两者结合，最好</p><p>还需要说明的一点是 &amp; 和 bg 是等价的。这里要注意下。</p><p>还有一些反思的东西:</p><h4 id="1-硬着头皮，收货一定不会小。"><a href="#1-硬着头皮，收货一定不会小。" class="headerlink" title="1. 硬着头皮，收货一定不会小。"></a>1. 硬着头皮，收货一定不会小。</h4><p>昨天两个前端的页面基本上交差，我对react也有了更深层次的认识。ant-design-pro这个框架也很棒，css也不用怎么写。<br>虽然开始的时候，阻力特别的大，但是起码没那么恐惧它了。这个小插曲，算是送给自己的生日礼物吧。</p><h4 id="2-合理利用时间和坚持。"><a href="#2-合理利用时间和坚持。" class="headerlink" title="2. 合理利用时间和坚持。"></a>2. 合理利用时间和坚持。</h4><p>我要表达的，和我要写的，可能不太相关。这周算是对自己做了一个小的测试。我平时喜欢晚上下班的时候，去上地公园锻炼，<br>知道那里有一个公园，也是因为我在那附近等车。无意中发现的。公司每天在5:30到6:00的时候是吃饭的时间。我通常不在这个时间点吃饭。<br>但是从早上九点开始，除了吃饭上厕所，坐到下午5点半，本来就是很大的一种消耗。我往往那个时间段，会很累，或者说效率很低。这周的周一和周二，我选择了留在公司里面，<br>然后周一头疼，周二也效率很低。然后我周三的时候还是很抵触。因为外边很热，30多度。不过周三和周四，特别是周四时间很紧的时候，我还是硬着头皮去了。你觉得很重要的东西，<br>其实也可以说放下就放下的。”大不了加班嘛，我现在确实需要休息”。当时我就是这么想的，然后我就出发了，然后锻炼完回来了。就感觉充了电一样的感觉。回来后也没有用太多时间，就基本上完成了本周的任务。</p><p>时间的合理利用真的很重要。 晚上10点睡觉和早上六点起床，凌晨1点睡觉和早上9点起床，相差的真的很多。第一种我会很精神。第二种情况，我会睡不醒一样。</p><blockquote><p>贵有恒何必三更眠五更起，最无益只怕一日曝十日寒。</p></blockquote><blockquote><p>如果当前陷入死胡同了。你要相信，再重要的工作，都可以放下。遵从内心的选择，缕清思路，累了就休息。重整之后，再次出发。真的做到高效率，高产出。</p></blockquote>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 反思 </tag>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>2018-06-07今日总结</title>
+      <link href="/2018/06/07/2018-06-07%E4%BB%8A%E6%97%A5%E6%80%BB%E7%BB%93/"/>
+      <url>/2018/06/07/2018-06-07%E4%BB%8A%E6%97%A5%E6%80%BB%E7%BB%93/</url>
+      <content type="html"><![CDATA[<h3 id="今日完成情况"><a href="#今日完成情况" class="headerlink" title="今日完成情况:"></a>今日完成情况:</h3><pre><code>根据昨天完成的脚本统计了六月份接口的报错情况，17个报错，实际上只有4个是代码问题，已解决。其余的为传参错误，404，以及请求超时。今天又对统计的脚本进行了修改，进一步提升查询的速度。今天对supervisor里面的潜在bug进行了修复，因为之前的日志会朝同一个文件里面写，会出现权限问题，supervisor创建的文件是root权限的，其他的用户无法写入，这就会出现问题。</code></pre><p>无意中看到同事修复了我写的一个bug,仔细看了一下，当时确实没有考虑太多，导致少考虑的了一种情况。当时改代码有点太站在之前写代码的角度去看问题了。</p><h3 id="linux-还是得多用"><a href="#linux-还是得多用" class="headerlink" title="linux 还是得多用 !!!"></a>linux 还是得多用 !!!</h3><p>netstat 可以查看开放了哪些端口的具体进程和用户。<br>netstat -t 指明tcp端口，-u: udp端口  -l 仅仅监听套接字  -p 显示进程标识符和程序名称  -n 不进行轮询，显示ip</p><p>netstat -ntlp # 查看当前所有的tcp端口<br>netstat -ntulp | grep 80 # 查看所有80端口的使用情况<br>netstat -an | grep 3306 # 查看所有3306端口的使用情况</p><p><a href="http://blog.51cto.com/lixcto/1539136" target="_blank" rel="noopener">supervisor 很好的文章</a><br><a href="https://blog.csdn.net/origination_star/article/details/54341293" target="_blank" rel="noopener">http状态码</a><br><a href="http://blog.163.com/xychenbaihu@yeah/blog/static/132229655201132302726397/" target="_blank" rel="noopener">grep的正则</a></p><p>毕业已经两年了。时间过得好快。今天晚上看到老大很快的把bug给解决了，我有很大的压力。加油！为自己和高考的学生加油！</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 反思 </tag>
+            
+            <tag> linux </tag>
+            
+            <tag> 小结 </tag>
+            
+            <tag> supervisor </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>2018-06-05今日总结</title>
+      <link href="/2018/06/05/2018-06-05%E4%BB%8A%E6%97%A5%E6%80%BB%E7%BB%93/"/>
+      <url>/2018/06/05/2018-06-05%E4%BB%8A%E6%97%A5%E6%80%BB%E7%BB%93/</url>
+      <content type="html"><![CDATA[<h3 id="linux"><a href="#linux" class="headerlink" title="linux"></a>linux</h3><pre><code>今天开始统计错误数量比较多的接口和时间比较长的接口，awk,grep 又重新复习了一遍。时间长都生疏了。粘贴一些有些遗忘的linux指令。$NF 最后一列把第一列相同的名称的第二列加起来：cat add   | awk &apos;{a[$1]+=$2}END{for(i in a) printf &quot;%s %d\n&quot;,i,a[i]}&apos;执行语句要加上`ls`数组名称不能有数字awk &apos;{}&apos; 这里必须是单引号split($7,a,&quot;?&quot;)grep -v &quot;100\|200&quot;  过滤掉这些 记得要转义shell脚本还得抽空再复习一下，时间长都有点生疏了。</code></pre><h3 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h3><pre><code>今天上午提交代码，感觉上没问题，也就没有测试，实际上是有问题的，bug改了好几次，影响线上用户了。这点做的特别不好。以后，及时是很简单的修改，也必须测试，拒绝眼高手低。</code></pre><h3 id="今日完成"><a href="#今日完成" class="headerlink" title="今日完成:"></a>今日完成:</h3><pre><code>修复发帖bug完成初步统计错误接口及不同接口时长统计</code></pre>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 反思 </tag>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>2018-06-04今日总结</title>
+      <link href="/2018/06/04/2018-06-04%E4%BB%8A%E6%97%A5%E6%80%BB%E7%BB%93/"/>
+      <url>/2018/06/04/2018-06-04%E4%BB%8A%E6%97%A5%E6%80%BB%E7%BB%93/</url>
+      <content type="html"><![CDATA[<h3 id="今天小结"><a href="#今天小结" class="headerlink" title="今天小结:"></a>今天小结:</h3><pre><code>今天完成了取消问题人员功能条件过滤新增，等级低于2,低于3,低于4.修复了加经验脚本的问题修复了之前发带图片帖子后没有图片的情况</code></pre><h3 id="学习情况"><a href="#学习情况" class="headerlink" title="学习情况:"></a>学习情况:</h3><h4 id="git"><a href="#git" class="headerlink" title="git"></a>git</h4><p>git 代码改完之后发现分支错误，处理办法:<br>    &gt; git stash<br>    &gt; git checkout targetbranch<br>    &gt; git stash pop<br>    &gt; git add .<br>    &gt; git commit -m xxx</p><p>git 推送远程分支版本回退的问题还没有解决，明天继续。</p><p>pycharm 学到了查询文件的方法: ctrl + shift + N</p><h4 id="linux"><a href="#linux" class="headerlink" title="linux"></a>linux</h4><p><a href="https://linuxstory.org/grep-regular-expressions/" target="_blank" rel="noopener">https://linuxstory.org/grep-regular-expressions/</a><br>3分钟了解grep命令的正则表达式</p><p><a href="https://linux.cn/article-6941-1.html" target="_blank" rel="noopener">https://linux.cn/article-6941-1.html</a> gerp 正则匹配</p><h4 id="url转义"><a href="#url转义" class="headerlink" title="url转义"></a>url转义</h4><p><a href="https://meyerweb.com/eric/tools/dencoder/" target="_blank" rel="noopener">https://meyerweb.com/eric/tools/dencoder/</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> linux </tag>
+            
+            <tag> url转义 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>2018-06-04周末整理</title>
+      <link href="/2018/06/04/2018-06-04%E5%91%A8%E6%9C%AB%E6%95%B4%E7%90%86/"/>
+      <url>/2018/06/04/2018-06-04%E5%91%A8%E6%9C%AB%E6%95%B4%E7%90%86/</url>
+      <content type="html"><![CDATA[<h3 id="关于ubuntu系统升级的"><a href="#关于ubuntu系统升级的" class="headerlink" title="关于ubuntu系统升级的"></a>关于ubuntu系统升级的</h3><pre><code>这个本来是很容易的一件事情，但是我的一个失误变成了很多bug.不过还好是在我自己的笔记本上面升级。所有没出大乱。这里记录一下:1.ubuntu系统 lsb_release 应该用python2来执行，而update-manager应该用python3 来执行。今天看到我工作的电脑，我才发现我弄错了，都是python3,python3在ubuntu里面已经很重要了，当时我应该用 sudo apt install --reinstall python3 来重新安装一下。但是我没有，我直接删除了python3.6(并不是软连接),然后麻烦就来了。终端，系统更新都打不开了，还有其他的bug都来了。难道得重装系统? 我重装了python3.但是还是有问题，之前的python3没有卸载干净,终端还是无法打开,系统更新也不行。lsb_release也不行。yum也有bug。dpkg安装也有问题。dpkg解决的方法是mv /usr/lib/dpkg/info /usr/lib/dpkg/old_info mkdir /usr/lib/dpkg/info 然后重新执行install 或者其他的指令。如果有bug, 直接用--reinstall的方式。因为python3之前的历史配置没有改过来，我就把 lsb_release的版本改成了python2,并且注释掉了一个报错.只剩下update-manager 依然有问题，大部分的bug都已经解决掉了,又回到了升级版本的情况，但是从中学到了很多。</code></pre><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><pre><code>当再次遇到类似问题的时候，最应该做的，应该是先思考，我这一步做是要干什么，主要还是linux里面软件的安装,很多东西都没有搞清楚，图形化界面用的太多，出现问题，就慌慌张张解决，以致于引发了更大的bug.有空还是得多琢磨一下 linux系统层面的东西，比如/usr/bin/update-manager 它调用的是python3. python3里面的/usr/lib/disk-packages/里面的包是如何导入的，配置环境变量哪个一个起作用了。这些还是需要深究一下的。</code></pre><h3 id="生活总结"><a href="#生活总结" class="headerlink" title="生活总结:"></a>生活总结:</h3><pre><code>周六 颐和园  周日 看了完美陌生人。 两天有空在改升级bug,玩皇室战争</code></pre>]]></content>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> 思考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>2018-06-01_mysql排错指南学习</title>
+      <link href="/2018/06/01/2018-06-01-mysql%E6%8E%92%E9%94%99%E6%8C%87%E5%8D%97%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2018/06/01/2018-06-01-mysql%E6%8E%92%E9%94%99%E6%8C%87%E5%8D%97%E5%AD%A6%E4%B9%A0/</url>
+      <content type="html"><![CDATA[<p>虽然是做python开发，但是只会python还是远远不够，单单看做后端，你网站访问频繁的数据需要做缓存吧。这就得会redis吧 而那些正常读写的数据，你如何存数据库，建表，增删改查，你得会mysql<br>或者其他的sql吧，项目是用git和svn部署？你还得会git或者svn吧，开发环境你也得会配吧，有网络问题了你也得会解决吧，开英文官方文档也是必须的吧。。。 简单的页面你也得会写吧</p><p>这些只是我要看MySQL排错指南学习的一部分,学习最高效的方法，提高效率，节省时间，空间，资源，提高用户的体验。这才是必要的。路漫漫其修远兮，吾将上下而求索。</p><h2 id="MySQL排错指南里面我认为重要的部分"><a href="#MySQL排错指南里面我认为重要的部分" class="headerlink" title="MySQL排错指南里面我认为重要的部分"></a>MySQL排错指南里面我认为重要的部分</h2><h3 id="当sql语句错误的时候，输出结果不是你想要的时候，你应该想办法打印sql语句。"><a href="#当sql语句错误的时候，输出结果不是你想要的时候，你应该想办法打印sql语句。" class="headerlink" title="当sql语句错误的时候，输出结果不是你想要的时候，你应该想办法打印sql语句。"></a>当sql语句错误的时候，输出结果不是你想要的时候，你应该想办法打印sql语句。</h3><h3 id="如果没办法打印出sql语句，可以通过检查mysql的通用查询日志来排错。使用方法："><a href="#如果没办法打印出sql语句，可以通过检查mysql的通用查询日志来排错。使用方法：" class="headerlink" title="如果没办法打印出sql语句，可以通过检查mysql的通用查询日志来排错。使用方法："></a>如果没办法打印出sql语句，可以通过检查mysql的通用查询日志来排错。使用方法：</h3><pre><code>1. set global general_log=&quot;on&quot;; 通过这条命令打开日志。2. set global log_output=&quot;table&quot;; 将日志记录在表中。3. select * from mysql.general_log\G 查看日志4. set global general_log=&quot;off&quot;; 使用完毕之后关闭日志。</code></pre><h3 id="如果一个select-查询没有按预期工作，可以将其拆分为小段语句，然后分析每一部分直到你找到产生错误行为的原因。"><a href="#如果一个select-查询没有按预期工作，可以将其拆分为小段语句，然后分析每一部分直到你找到产生错误行为的原因。" class="headerlink" title="如果一个select 查询没有按预期工作，可以将其拆分为小段语句，然后分析每一部分直到你找到产生错误行为的原因。"></a>如果一个select 查询没有按预期工作，可以将其拆分为小段语句，然后分析每一部分直到你找到产生错误行为的原因。</h3><h3 id="可以借助explain-extends-命令，通过show-warnings-来查找错误。"><a href="#可以借助explain-extends-命令，通过show-warnings-来查找错误。" class="headerlink" title="可以借助explain extends 命令，通过show warnings 来查找错误。"></a>可以借助explain extends 命令，通过show warnings 来查找错误。</h3>]]></content>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>2018-06-01上线反思</title>
+      <link href="/2018/06/01/2018.06.01%E4%B8%8A%E7%BA%BF%E5%8F%8D%E6%80%9D/"/>
+      <url>/2018/06/01/2018.06.01%E4%B8%8A%E7%BA%BF%E5%8F%8D%E6%80%9D/</url>
+      <content type="html"><![CDATA[<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>儿童节快乐！昨天慌慌张张写的脚本上线了，出了点问题。还没查到原因。但是配置的过程中走了不少弯路。这里记录一下，再上线脚本的时候要好好思考之后再弄。</p><p>1.上线之前我需要先把脚本跑起来，然后老大合并代码之后，我拉取git上最新的代码。</p><p>昨天的一个很大的问题，是我只顾跑脚本，没有合代码，然后脚本就异常了！！！因为之前有这个脚本，所以我找了好久都没找到问题。 下次要列出清单。一步一步做，防止丢三落四。</p><h2 id="再次需要重申的知识点"><a href="#再次需要重申的知识点" class="headerlink" title="再次需要重申的知识点:"></a>再次需要重申的知识点:</h2><pre><code>supervisor 里面的部署，路径。一定要实际去跑一下看看，看是否能够运行起来，运行的是否正确。修改配置之后，一定要记得update然后在restart.在代码出现问题的时候，git上面可以找一下之前的历史，然后git reset --hard 版本号 到之前的历史版本, 就可以了。git reflog 可以查看当前分支之前的所有操作。git log --pretty=oneline file 可以查看一个文件的所有历史提交记录.linux 里面的grep. 如果需要查找当前的下面5行，grep &quot;need_find_thing&quot; -A 5 filename如果需要查找当前的上面5行，grep &quot;need_find_thing&quot; -B 5 filename如果需要查找当前的上面和下面各5行，grep &quot;need_find_thing&quot; -C 5 filenamegrep &quot;test&quot; . -r -n  在多级目录中对文本进行递归操作echo &quot;hello world&quot; | grep -i &quot;HELLO&quot; # 忽略匹配样式中的字符大小写</code></pre>]]></content>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> supervisor </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>2018-05-31 学习笔记</title>
+      <link href="/2018/05/31/2018-05-31-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2018/05/31/2018-05-31-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<h2 id="vim-相关的"><a href="#vim-相关的" class="headerlink" title="vim 相关的:"></a>vim 相关的:</h2><h3 id="vim命令行下的操作"><a href="#vim命令行下的操作" class="headerlink" title="vim命令行下的操作"></a>vim命令行下的操作</h3><p>每行的行首都添加一个字符串：%s/^/要插入的字符串<br>每行的行尾都添加一个字符串：%s/$/要插入的字符串</p><p>解释：</p><pre><code>% 代表针对被编辑文件的每一行进行后续操作$ 代表一行的结尾处^ 代表一行的开头处</code></pre><h3 id="命令行中的-Vi-模式"><a href="#命令行中的-Vi-模式" class="headerlink" title="命令行中的 Vi 模式"></a>命令行中的 Vi 模式</h3><p>Bash shell 提供了两种模式用于命令行编辑：emacs 和 vi。默认情况下是 Emacs 编辑模式，可以使用以下方式将其更改为 vi 模式：</p><pre><code>set -o vi</code></pre><p>在命令行中，可以按下 ESC 键进入 vi 编辑模式，并使用 vi 的单行编辑功能。在命令行中的 vi 编辑模式下，可以通过按下 v 弹出编辑器，这样就可以编辑和保存将在命令行中执行的缓冲。</p><p>如果需要回到 emacs 模式，输入：</p><pre><code>set -o emacs</code></pre><a id="more"></a><h3 id="多个文件中执行宏操作"><a href="#多个文件中执行宏操作" class="headerlink" title="多个文件中执行宏操作"></a>多个文件中执行宏操作</h3><p>我们已经录制好了一个宏，并且希望在多个文件中运行它。首先我们需要使用文件构建一个参数列表，例如，从一个 Rails 应用中加载所有模型：</p><pre><code>:args app/models/*.rb</code></pre><p>然后使用下面的命令运行宏（记录在寄存器 a 中）：</p><pre><code>:argdo normal @a</code></pre><p>最后，使用下面的命令保存所有的缓冲：</p><pre><code>:argdo update</code></pre><p><a href="https://zhuanlan.zhihu.com/p/27968721" target="_blank" rel="noopener">摘自知乎</a></p><h2 id="redis相关的"><a href="#redis相关的" class="headerlink" title="redis相关的:"></a>redis相关的:</h2><p>mset 同时设置一个或多个key-value对。<br>如果某个给定key已经存在，那么MSET会用新值覆盖旧值。<br>msetnx 和 mset相似，但是它只会对不存在key的设置，存在无法设置。</p><h3 id="mset用例-这里就好比python里的列表"><a href="#mset用例-这里就好比python里的列表" class="headerlink" title="mset用例(这里就好比python里的列表):"></a>mset用例(这里就好比python里的列表):</h3><pre><code>MSET date &quot;2012.3.30&quot; time &quot;11:00 a.m.&quot; weather &quot;sunny&quot;MGET date time weather1) &quot;2012.3.30&quot;2) &quot;11:00 a.m.&quot;3) &quot;sunny&quot;redis&gt; SET google &quot;google.hk&quot;OKredis&gt; MSET google &quot;google.com&quot;OKredis&gt; GET google&quot;google.com&quot;</code></pre><h3 id="msetnx用例-这里就好比python里的元组"><a href="#msetnx用例-这里就好比python里的元组" class="headerlink" title="msetnx用例(这里就好比python里的元组):"></a>msetnx用例(这里就好比python里的元组):</h3><pre><code>redis&gt; MSETNX rmdbs &quot;MySQL&quot; nosql &quot;MongoDB&quot; key-value-store &quot;redis&quot;(integer) 1redis&gt; MGET rmdbs nosql key-value-store1) &quot;MySQL&quot;2) &quot;MongoDB&quot;3) &quot;redis&quot;redis&gt; MSETNX rmdbs &quot;Sqlite&quot; language &quot;python&quot;  # rmdbs 键已经存在，操作失败(integer) 0redis&gt; EXISTS language                          # 因为 MSET 是原子性操作，language 没有被设置(integer) 0redis&gt; GET rmdbs                                # rmdbs 也没有被修改&quot;MySQL&quot;</code></pre><h2 id="git相关的"><a href="#git相关的" class="headerlink" title="git相关的:"></a>git相关的:</h2><pre><code>我经常出现代码改完了发现分支错了的情况，这种情况怎么解决?前提是尚未将修改提交到错误的分支.git stashgit checkout targetbranchgit stash popgit add .git commit -m xxx第一步:将修改的代码暂存到stash第二步:切换到正确的分支第三步:从stash中取出暂存的代码修改至此,对代码的改动，就由错误的分支移动到了正确的分支.把当前未提交到本地（和服务器）的代码推入到 Git 的栈中：$ git stash将以前存放的代码应用回来$ git stash apply 或者使用 $ git stash pop区别 pop 会删除栈里面数据 apply 会保留数据将当前的 Git 栈信息打印出来$ git stash list将你指定版本号为stash@{1}的工作取出来$ git stash apply stash@{1}将栈清空$ git stash clear</code></pre>]]></content>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> vim </tag>
+            
+            <tag> redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>hexo搭建笔记</title>
+      <link href="/2018/05/30/hexo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/"/>
+      <url>/2018/05/30/hexo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<p>这两天在搭建自己的博客，用到了很多的东西，这里整理一下。<br><a href="http://www.joryhe.com/2016-05-12-git_and_hexo_create_blog.html" target="_blank" rel="noopener">很不错的搭建hexo博客</a><br><a href="https://fontawesome.com/icons?d=gallery" target="_blank" rel="noopener">实用的小图标</a><br><a href="http://shenzekun.cn/hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF.html" target="_blank" rel="noopener">next主题炫酷的动态背景</a><br><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">hexo很炫的一些小技巧</a><br><a href="https://www.jianshu.com/p/baea8c95e39b" target="_blank" rel="noopener">hexo统计字数,阅读时长</a></p><p>goodluck!</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>今日反思</title>
+      <link href="/2018/05/29/2018-05-29/"/>
+      <url>/2018/05/29/2018-05-29/</url>
+      <content type="html"><![CDATA[<h2 id="今天完成的工作"><a href="#今天完成的工作" class="headerlink" title="今天完成的工作:"></a>今天完成的工作:</h2><pre><code>完成了七牛图片的处理(最大尺寸和瘦身)完成了image新增一个字段，以及发布一张图片的时候，存储当前图片的size.</code></pre><h2 id="问题点"><a href="#问题点" class="headerlink" title="问题点:"></a>问题点:</h2><pre><code>图片处理的时候，没有根据当前的业务去思考，一味的根据之前的代码去做在已有图片的时候去修改最大尺寸和瘦身，获取key的时候忽略了http和https,导致切出来的key错误。dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一些异常。</code></pre><a id="more"></a><h2 id="需要反思的地方"><a href="#需要反思的地方" class="headerlink" title="需要反思的地方:"></a>需要反思的地方:</h2><pre><code>调试的时候，真的看不出来问题的时候，就一行一行的打印日志，查看每一步的结果。如果有业务逻辑没有看懂，就要抓紧时间问，避免重复返工。</code></pre><p>今天下午的bug卡了很长时间，今天弄好了博客的评论功能。用了一下还不错。grep 很久不用现在都生疏了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">grep &quot;xxxx&quot; file                                # 这个直接查找文本里面的xxxx</span><br><span class="line">grep &quot;xxxx&quot; file | grep &quot;yyyy&quot;                  # 这个是多条件查找，同时匹配</span><br><span class="line">grep -E &quot;word1|word2|word3&quot;   file.txt          # 这个只需要满足一个就可以了。</span><br></pre></td></tr></table></figure></p><p>接下来要抽空多看英语，英语忘完了感觉。。。git软件开发实战今天都没空看。 时间没有规划好。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard  # 如果git pull 的时候报错，或者本地编辑了，已经commit了，还没有提交远端分支，就用这个。</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 反思 </tag>
+            
+            <tag> git </tag>
+            
+            <tag> grep </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>昨日反思</title>
+      <link href="/2018/05/29/2018-05-28/"/>
+      <url>/2018/05/29/2018-05-28/</url>
+      <content type="html"><![CDATA[<h2 id="昨天完成的工作"><a href="#昨天完成的工作" class="headerlink" title="昨天完成的工作:"></a>昨天完成的工作:</h2><pre><code>- 完成了号码dna的脚本编写。</code></pre><h2 id="问题点"><a href="#问题点" class="headerlink" title="问题点:"></a>问题点:</h2><pre><code>- 代码中引入了rabbitmq队列机制，主要目的就是在读操作的时候避免写操作。把写操作放入队列里面运行。- 忽略的一个问题就是我是根据传给客户端的数据来放入队列的，这会造成一个并发的问题。- 解决这一个问题，最好的方式就是直接读取数据库中的数据，因为队列里面如果执行的慢，会出现同时读入两个插入操作。- 但是业务逻辑是如果没有就插入，有就删除。</code></pre><a id="more"></a><h2 id="需要反思的地方"><a href="#需要反思的地方" class="headerlink" title="需要反思的地方:"></a>需要反思的地方:</h2><pre><code>- 我过多的关注了返给客户端的数据，没有理清楚它们之间的关系其实是可以分开的。- 代码逻辑还是没有弄的足够的清楚，代码看的不够细致。</code></pre><p>昨天尝试使用hexo和github来搭建自己的博客，感觉这个确实很赞，作为记录自己日常生活的个人天地，确实很不错。以后会尽量的把文章发在这个上面，同时弄清楚更多hexo的使用技巧。</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 反思 </tag>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>fluently_python读书笔记</title>
+      <link href="/2018/05/28/fluently_python%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <url>/2018/05/28/fluently_python%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<h2 id="1-第一个python问题"><a href="#1-第一个python问题" class="headerlink" title="1.第一个python问题"></a>1.第一个python问题</h2><p>流畅的python里面14章  可迭代的对象，迭代器，生成器里面，最后一个延伸阅读，里面列举了这样一个例子。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">def f(): x=0</span><br><span class="line">    while True:</span><br><span class="line">        x += 1</span><br><span class="line">        yield x</span><br></pre></td></tr></table></figure><p>论文的作者指出，我们无法通过函数调用抽象产出这个过程。<br>然后论文的作者做了一个变化，变成下面的例子来简单地抽象产出这个过程。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">def f():</span><br><span class="line">    def do_yield(n):</span><br><span class="line">        yield n</span><br><span class="line">    x = 0</span><br><span class="line">    while True:</span><br><span class="line">        x += 1</span><br><span class="line">        do_yield(x)</span><br></pre></td></tr></table></figure><p>这样会得到一个无限的循环，而不是生成器。</p><p>如果调用示例 14-24 中的 f(),会得到一个无限循环,而不是生成<br>器,因为 yield 关键字只能把最近的外层函数变成生成器函数。<br>虽然生成器函数看起来像函数,可是我们不能通过简单的函数调用<br>把职责委托给另一个生成器函数。<br><a id="more"></a><br>而必须使用yield from 才能解决这个问题。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">def f():</span><br><span class="line">    def do_yield(n):</span><br><span class="line">        yield n</span><br><span class="line">    x = 0</span><br><span class="line">    while True:</span><br><span class="line">        x += 1</span><br><span class="line">        yield from do_yield(x)</span><br></pre></td></tr></table></figure><p>然后作者后面列举了一个斐波那契数列，实现如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def fibonacci():</span><br><span class="line">    a, b = 0, 1</span><br><span class="line">    while True:</span><br><span class="line">        yield a</span><br><span class="line">        a, b = b, a + b</span><br></pre></td></tr></table></figure><p>这个和上面第一个列举的例子有什么区别？<br>而且yield from 和 yield 在这个里面的区别在哪？</p><h2 id="第二个问题："><a href="#第二个问题：" class="headerlink" title="第二个问题："></a>第二个问题：</h2><p>猴子补丁问题。（第15章，上下文管理器和else块）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">class LookingGlass:</span><br><span class="line">    def __enter__(self): ➊</span><br><span class="line">        import sys</span><br><span class="line">        self.original_write = sys.stdout.write ➋</span><br><span class="line">        sys.stdout.write = self.reverse_write ➌ # 在这个地方使用猴子补丁，替换成自己编写的方法。</span><br><span class="line">        return &apos;JABBERWOCKY&apos; ➍</span><br><span class="line">        </span><br><span class="line">    def reverse_write(self, text): ➎</span><br><span class="line">        self.original_write(text[::-1])</span><br><span class="line">        </span><br><span class="line">    def __exit__(self, exc_type, exc_value, traceback):</span><br><span class="line">        import sys ➐</span><br><span class="line">        sys.stdout.write = self.original_write ➑</span><br><span class="line">        if exc_type is ZeroDivisionError: ➒</span><br><span class="line">            print(&apos;error&apos;)</span><br></pre></td></tr></table></figure><p>在➌处使用了猴子补丁，在python3里面运行没有问题，但是放到python2里面，会报write方法是只读的？ 原因是因为python2和python3,write方法不一样？还是python2不支持猴子补丁？</p><p>python2会报如下错误:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AttributeError: &apos;file&apos; object attribute &apos;write&apos; is read-only</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 流畅的python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+</search>

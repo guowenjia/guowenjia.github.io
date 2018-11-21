@@ -287,6 +287,183 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/01/2018-06-01-mysql排错指南学习/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="guowenjia">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="幽默的荆轲君">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/06/01/2018-06-01-mysql排错指南学习/" itemprop="url">2018-06-01_mysql排错指南学习</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-01T14:25:52+08:00">
+                2018-06-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/06/01/2018-06-01-mysql排错指南学习/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/06/01/2018-06-01-mysql排错指南学习/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/06/01/2018-06-01-mysql排错指南学习/" class="leancloud_visitors" data-flag-title="2018-06-01_mysql排错指南学习">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  404 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>虽然是做python开发，但是只会python还是远远不够，单单看做后端，你网站访问频繁的数据需要做缓存吧。这就得会redis吧 而那些正常读写的数据，你如何存数据库，建表，增删改查，你得会mysql<br>或者其他的sql吧，项目是用git和svn部署？你还得会git或者svn吧，开发环境你也得会配吧，有网络问题了你也得会解决吧，开英文官方文档也是必须的吧。。。 简单的页面你也得会写吧</p>
+<p>这些只是我要看MySQL排错指南学习的一部分,学习最高效的方法，提高效率，节省时间，空间，资源，提高用户的体验。这才是必要的。路漫漫其修远兮，吾将上下而求索。</p>
+<h2 id="MySQL排错指南里面我认为重要的部分"><a href="#MySQL排错指南里面我认为重要的部分" class="headerlink" title="MySQL排错指南里面我认为重要的部分"></a>MySQL排错指南里面我认为重要的部分</h2><h3 id="当sql语句错误的时候，输出结果不是你想要的时候，你应该想办法打印sql语句。"><a href="#当sql语句错误的时候，输出结果不是你想要的时候，你应该想办法打印sql语句。" class="headerlink" title="当sql语句错误的时候，输出结果不是你想要的时候，你应该想办法打印sql语句。"></a>当sql语句错误的时候，输出结果不是你想要的时候，你应该想办法打印sql语句。</h3><h3 id="如果没办法打印出sql语句，可以通过检查mysql的通用查询日志来排错。使用方法："><a href="#如果没办法打印出sql语句，可以通过检查mysql的通用查询日志来排错。使用方法：" class="headerlink" title="如果没办法打印出sql语句，可以通过检查mysql的通用查询日志来排错。使用方法："></a>如果没办法打印出sql语句，可以通过检查mysql的通用查询日志来排错。使用方法：</h3><pre><code>1. set global general_log=&quot;on&quot;; 通过这条命令打开日志。
+2. set global log_output=&quot;table&quot;; 将日志记录在表中。
+3. select * from mysql.general_log\G 查看日志
+4. set global general_log=&quot;off&quot;; 使用完毕之后关闭日志。
+</code></pre><h3 id="如果一个select-查询没有按预期工作，可以将其拆分为小段语句，然后分析每一部分直到你找到产生错误行为的原因。"><a href="#如果一个select-查询没有按预期工作，可以将其拆分为小段语句，然后分析每一部分直到你找到产生错误行为的原因。" class="headerlink" title="如果一个select 查询没有按预期工作，可以将其拆分为小段语句，然后分析每一部分直到你找到产生错误行为的原因。"></a>如果一个select 查询没有按预期工作，可以将其拆分为小段语句，然后分析每一部分直到你找到产生错误行为的原因。</h3><h3 id="可以借助explain-extends-命令，通过show-warnings-来查找错误。"><a href="#可以借助explain-extends-命令，通过show-warnings-来查找错误。" class="headerlink" title="可以借助explain extends 命令，通过show warnings 来查找错误。"></a>可以借助explain extends 命令，通过show warnings 来查找错误。</h3>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/01/2018.06.01上线反思/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1419,7 +1596,7 @@ dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一�
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>

@@ -287,6 +287,191 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/05/2018-06-05今日总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="guowenjia">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="幽默的荆轲君">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/06/05/2018-06-05今日总结/" itemprop="url">2018-06-05今日总结</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-05T19:50:02+08:00">
+                2018-06-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/06/05/2018-06-05今日总结/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/06/05/2018-06-05今日总结/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/06/05/2018-06-05今日总结/" class="leancloud_visitors" data-flag-title="2018-06-05今日总结">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  259 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="linux"><a href="#linux" class="headerlink" title="linux"></a>linux</h3><pre><code>今天开始统计错误数量比较多的接口和时间比较长的接口，awk,grep 又重新复习了一遍。时间长都生疏了。
+粘贴一些有些遗忘的linux指令。
+$NF 最后一列
+把第一列相同的名称的第二列加起来：cat add   | awk &apos;{a[$1]+=$2}END{for(i in a) printf &quot;%s %d\n&quot;,i,a[i]}&apos;
+执行语句要加上`ls`
+数组名称不能有数字
+awk &apos;{}&apos; 这里必须是单引号
+split($7,a,&quot;?&quot;)
+grep -v &quot;100\|200&quot;  过滤掉这些 记得要转义
+shell脚本还得抽空再复习一下，时间长都有点生疏了。
+</code></pre><h3 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h3><pre><code>今天上午提交代码，感觉上没问题，也就没有测试，实际上是有问题的，bug改了好几次，影响线上用户了。这点做的特别不好。
+以后，及时是很简单的修改，也必须测试，拒绝眼高手低。
+</code></pre><h3 id="今日完成"><a href="#今日完成" class="headerlink" title="今日完成:"></a>今日完成:</h3><pre><code>修复发帖bug
+完成初步统计错误接口及不同接口时长统计
+</code></pre>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/04/2018-06-04今日总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1959,7 +2144,7 @@ dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一�
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">19</span>
+                  <span class="site-state-item-count">20</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>

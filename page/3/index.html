@@ -287,6 +287,195 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/01/2018.06.01上线反思/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="guowenjia">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="幽默的荆轲君">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/06/01/2018.06.01上线反思/" itemprop="url">2018-06-01上线反思</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-01T09:27:40+08:00">
+                2018-06-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/06/01/2018.06.01上线反思/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/06/01/2018.06.01上线反思/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/06/01/2018.06.01上线反思/" class="leancloud_visitors" data-flag-title="2018-06-01上线反思">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  416 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  2 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>儿童节快乐！昨天慌慌张张写的脚本上线了，出了点问题。还没查到原因。但是配置的过程中走了不少弯路。这里记录一下，再上线脚本的时候要好好思考之后再弄。</p>
+<p>1.上线之前我需要先把脚本跑起来，然后老大合并代码之后，我拉取git上最新的代码。</p>
+<p>昨天的一个很大的问题，是我只顾跑脚本，没有合代码，然后脚本就异常了！！！因为之前有这个脚本，所以我找了好久都没找到问题。 下次要列出清单。一步一步做，防止丢三落四。</p>
+<h2 id="再次需要重申的知识点"><a href="#再次需要重申的知识点" class="headerlink" title="再次需要重申的知识点:"></a>再次需要重申的知识点:</h2><pre><code>supervisor 里面的部署，路径。一定要实际去跑一下看看，看是否能够运行起来，运行的是否正确。修改配置之后，一定要记得update然后在restart.
+
+在代码出现问题的时候，git上面可以找一下之前的历史，然后git reset --hard 版本号 到之前的历史版本, 就可以了。
+
+git reflog 可以查看当前分支之前的所有操作。
+
+git log --pretty=oneline file 可以查看一个文件的所有历史提交记录.
+
+linux 里面的grep. 如果需要查找当前的下面5行，grep &quot;need_find_thing&quot; -A 5 filename
+如果需要查找当前的上面5行，grep &quot;need_find_thing&quot; -B 5 filename
+如果需要查找当前的上面和下面各5行，grep &quot;need_find_thing&quot; -C 5 filename
+
+grep &quot;test&quot; . -r -n  在多级目录中对文本进行递归操作
+
+echo &quot;hello world&quot; | grep -i &quot;HELLO&quot; # 忽略匹配样式中的字符大小写
+</code></pre>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/31/2018-05-31-学习笔记/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1230,7 +1419,7 @@ dna脚本部分的代码因为没有考虑其他彩种情况导致出现了一�
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-count">26</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
